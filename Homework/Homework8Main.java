@@ -2,7 +2,6 @@ public class Homework8Main {
     public static void main(String[] args) {
 
         // create three employee objects with different names and salaries.
-        ///// ----------- Problem 1: Employee Testing ----------- /////
         Employee e1 = new Employee("Alice", 5000.0);
         Employee e2 = new Employee("Bob", 6500.0);
         Employee e3 = new Employee("Charlie", 5500.0);
@@ -21,7 +20,6 @@ public class Homework8Main {
         // print the total number of employees that was created.
         Employee.printTotalEmployees();
 
-        ///// ----------- Problem 2: Product and Cart Testing ----------- /////
         // create several product objects with the names and prices.
         Product p1 = new Product("Laptop", 1200.0);
         Product p2 = new Product("Phone", 800.0);
