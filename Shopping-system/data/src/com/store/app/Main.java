@@ -18,9 +18,9 @@ public class Main {
         OrderService os = new OrderService(ps);
 
         // ----- load data from text files -----
-        ps.loadProducts("data/products.txt");
-        cs.loadCustomers("data/customers.txt");
-
+        ps.loadProducts("Shopping-system/data/products.txt");
+        cs.loadCustomers("Shopping-system/data/customers.txt");
+        
         // ----- display all products -----
         System.out.println("===== ALL PRODUCTS =====");
 
